@@ -1,0 +1,252 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow:scroll;
+}
+ul {
+    background-color: #1c1c1c;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+}
+li {
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 8px;
+}
+.menu>a:link{
+    text-decoration: none;
+    color: red;
+}
+.menu>a:visited {
+    color: #eceff1;
+}
+.opening>h2 {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Quicksand', sans-serif;
+}
+.heading {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.heading>h2{
+    font-family: 'Quicksand', sans-serif;;
+}
+.heading > p{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;;
+}
+.history {
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.history>h2{
+    font-family: 'Quicksand', sans-serif;;
+}
+.history>p{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+.footer{
+    overflow: auto;
+    /* position: absolute; */
+    display: flex;
+    font-size: 19px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.bold{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 16px;
+   /* align-items: flex-start;  */
+}
+.lead{
+    background-color: white;
+    flex-direction: column;
+    display: flex;
+    text-align: left;
+}
+
+.lead>li{
+    font-size: 16px ;
+}
+.insidebar{
+    flex-direction: column;
+    display: flex;
+    font-size: 16px;
+}
+.about{
+    font-size: 16px;
+}
+.icon{
+    font-size: 30px;
+}
+
+@media only screen and (min-width: 993px) {
+    /* For Desktop */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 49.5%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    .menu {
+        margin-left: 80px;
+        margin-right: 80px;
+      
+      }  
+      .menu>a:link{
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .banner{
+        background-image: url('./images/thanh-nha-hồ.png');
+        width: 97.5%;
+        height: 276px;
+        padding-top: 120px;
+        padding-left: 40px;
+        background-size: 110%;
+    }
+    .banner>h1{
+        color: white;
+        font-size: 50px;
+        font-family: 'Quicksand', sans-serif;;
+        padding-top: 50px;
+    }
+    .hr{
+        display: none;
+    }
+    .milk{
+        background-color:thistle;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+    }
+    .ben{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about{
+        margin-left: 120px;
+    }
+    .insidebar{
+        margin-left: 100px;
+    }
+    .bold{
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        /* align-items: center; */
+    }
+    .lead{
+        background-color: white;
+        flex-direction: column;
+        display: flex;
+        text-align: left;
+    }
+    
+}
+@media only screen and (max-width: 992px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+    .menu {
+        margin-left: 40px;
+        margin-right: 40px;
+      
+      }
+      .banner>h1{
+        margin-left: 15px;
+    }
+    .banner>h1{
+        margin-left: 15px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .opening>h2 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .heading {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .history{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 49.5%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    [class*="col-"] {
+      width: 100%;
+    } 
+    .option{
+        background-color: #ffccbc;
+    }
+    .menu>a:visited {
+        color: hsl(204, 87%, 12%);
+    }
+    .menu {
+        margin-left: 17px;
+        margin-right: 17px;
+
+      } 
+    .banner>h1{
+        margin-left: 15px;
+    }
+    .opening>h2 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .heading {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .history{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
